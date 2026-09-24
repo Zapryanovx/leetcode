@@ -8,7 +8,7 @@ public class LC_1140_StoneGameII {
 
         int[] suffixSum = new int[n + 1];
         for (int i = n - 1; i >= 0; i--) {
-            suffixSum[i] = piles[i] + suffixSum[i + 1];
+            suffixSum[i] = piles[i] + suffixSum[i +  1];
         }
 
         int[][] dp = new int[n + 1][n + 1];
