@@ -1,5 +1,7 @@
 package arrays;
 
+import java.util.Arrays;
+
 public class LC_0135_Candy {
     public int candy(int[] ratings) {
         int[] candies = new int[ratings.length];
